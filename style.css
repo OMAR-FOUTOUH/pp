@@ -315,7 +315,7 @@ user-select: none;
     background: var(--primary-color);
     color: white;
 }
-.btn-get:hover{
+.section1 button:hover{
     background:white ;
     color: #000;
 }
@@ -1115,7 +1115,9 @@ a.active,a:hover{
   font-weight: bold; /* Make the heading text bold */
   }
   .section1 p {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 120%;
+    width: 124%;
   }
 
   /* Section 2 */
@@ -1223,10 +1225,11 @@ a.active,a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
-    margin: 40px;
+    width: 20rem;
+   
     JUSTIFY-CONTENT: space-between;
     GAP: 9PX;
+    
   }
 
   /* Section 5 */
@@ -1551,10 +1554,11 @@ padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 40px;
-    width: 150%;
+
+    width: 15    0%;
     JUSTIFY-CONTENT: space-between;
     GAP: 9PX;
+    width: 20rem;
   }
 
   /* Section 5 */
