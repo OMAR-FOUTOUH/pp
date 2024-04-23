@@ -262,7 +262,7 @@ transform: translatey(0);
     align-items: flex-start;
     margin-left: 60px;
     padding: 60px 0px 40px 0px;
-
+width: 50%;
 
     
 }
@@ -274,7 +274,7 @@ transform: translatey(0);
   padding: 36px 32px 36px 32px;
 
   border-radius: 30px 0px 0px 0px;
-background-color: var(--primary-color);
+  background-color: var(--primary-color);
   
     padding: 29px 40px 29px 40px;
     gap: 32px;
@@ -307,6 +307,9 @@ user-select: none;
 
 .section1 img{
     height: 112vh;
+   
+  
+  align-items: center;
 }
 .btn-get{
     background: var(--primary-color);
@@ -330,8 +333,7 @@ user-select: none;
     font-weight: 700;
     line-height: 77.45px;
     text-align: left;
-    
-padding: 30px;
+    padding: 30px;
 }
 
 .discover{
@@ -397,9 +399,6 @@ line-height: 58.09px;
     /* Add the transition property */
     transition: transform 0.5s ease-in-out;
 }
-
-
-
 .headers2{
   display: flex;
   flex-direction: column;
@@ -780,7 +779,7 @@ padding: 0px;
   font-weight: 700;
   line-height: 77.45px;
   text-align: left;
-  
+
 padding: 30px;
 }
 
@@ -819,8 +818,6 @@ line-height: 48.41px;
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-  
-
   margin-top: 35px;
       
   }
@@ -840,7 +837,6 @@ color: white;
   height: 143px;
   gap: 0px;
   opacity: 0px;
-
 }
 .learning p{
 
@@ -857,9 +853,6 @@ color: white;
   font-weight: 600;
   line-height: 58.29px;
   text-align: left;
-  
-  
-  
 }
 .content6{
 display: flex;
@@ -915,7 +908,7 @@ margin: 70px 0px 20px 50px;
 
 
 
-@media (max-width:600px)  { 
+/* @media (max-width:600px)  { 
   .learning{
     flex-direction: column;
     padding: 20px;
@@ -941,7 +934,7 @@ margin: 70px 0px 20px 50px;
   }
 }
 
-
+ */
 
 
 
@@ -1055,7 +1048,7 @@ a.active,a:hover{
 /* Add this code at the end of your CSS file */
 
 /* General adjustments for small screens */
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   /* Header */
   #Header {
     padding: 15px;
@@ -1085,6 +1078,7 @@ a.active,a:hover{
     flex-direction: column;
     height: auto;
     align-items: center;
+    height: 100vh;
   }
   .headers {
     margin-left: 20px;
@@ -1094,9 +1088,14 @@ a.active,a:hover{
 .section1 button {
   font-size: 16px;
   font-weight: 700;
-  line-height: 29.05px;
+  /* line-height: 29.05px; */
   color: white;
   margin-left: 15px;
+  width: 50%;
+  margin: 20px 0;
+  padding: 15px;
+  font-size: 1rem;
+
 }
 
   .section1 h1 {
@@ -1111,12 +1110,340 @@ a.active,a:hover{
   text-align: center; /* Center the heading */
   margin: 0; /* Remove default margin */
   text-align: center; /* Center the heading text */
-  width: 95%; /* Make the heading span the full width of its container */
+  width: 180%; /* Make the heading span the full width of its container */
   /* Set the font size (adjust as needed) */
   font-weight: bold; /* Make the heading text bold */
   }
   .section1 p {
     font-size: 1rem;
+  }
+
+  /* Section 2 */
+  .section2 {
+    padding: 8px;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+  }
+  .card img {
+    margin: 20px 0;
+    width: 150px;
+    height: 150px;
+
+  }
+  .card p {
+    font-size: 110%;
+  }
+  .card h2{
+    font-size: 180%;
+  }
+  .divheader{
+    margin: 2rem;
+  }
+  .headers{
+    margin:10px;
+  }
+  img \.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+ .section3 button  {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 29.05px;}
+   #cercle
+   {
+    width: 65px;
+        height: 65px;
+        border-radius: 50%;
+   }
+   .discover{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 48.41px;
+   }
+
+  /* Section 3 */
+  .section3_h1 {
+    margin: 20px 0;
+    font-size: 180%;
+  }
+  .records {
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 20px 0;
+    height: auto;
+  }
+  .record {
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .record h1 {
+    font-size: 180%;
+  }
+  .record p {
+    font-size: 110%;
+  }
+  .section3 button {
+    width: 44%;
+    margin: 20px 0;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  /* Section 4 */
+  .sectio4-h3 h1 {
+    margin: 20px 0;
+    font-size: 180%;
+  }
+  .image-description img {
+    width: 100%;
+    height: auto;
+    margin-inline: 0;
+  }
+  .description {
+    width: 100%;
+  }
+  .sections4 button {
+    width: 44%;
+    margin: 20px;
+    padding: 15px;
+    font-size: 0.5rem;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 40px;
+    JUSTIFY-CONTENT: space-between;
+    GAP: 9PX;
+  }
+
+  /* Section 5 */
+  .section5_header h1 {
+    margin: 20px 0px 0px 20px ;
+    font-size: 180%;
+    padding: 20px;
+  }
+  .section5_header{
+    flex-direction: column;
+  }
+  .comunities {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .comunity {
+    text-align: start;
+    margin: 20px 20px 50px 20px;
+  }
+  .comunity h1 {
+    font-size: 180%;
+  }
+  .comunity p {
+    font-size: 110%;
+  }
+  .section5 button{
+    width: 44%;
+    margin: 20px 0px 0px 20px;
+    padding: 15px;
+   
+  }
+  .section5 button {
+    font-size: 0.5rem;
+  }
+  /* Section 6 */
+  .learnings{
+    width: 95%;
+  }
+  .learning h1 {
+    margin: 20px;
+    font-size: 180%;  
+  }
+  .learning{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  .learnings > h1 {
+    margin: 20px;
+    font-size: 180%;
+  }
+  .learning img {
+    margin: 10px 0;
+    width: 100px;
+    height: 100px;
+  }
+  .learning p {
+    font-size: 110%;
+  }
+  .learnings button {
+    width: 44%;
+    margin: 20px 0;
+    padding: 15px;
+  
+  }
+  .learnings button {
+    font-size: 1rem;
+  }
+  .section5 button {
+    font-size: 1rem;
+  
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+  .section3_h1 {
+    margin: 20px ;
+    font-size: 180%;
+}
+.sectio4-h3 h1 {
+  margin: 20px;
+  font-size: 180%;
+}
+.image-description {
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  padding: 0px 30px 60px 0px;
+  text-align: start;
+}
+.image-description p{
+  font-size: 110%;
+}
+.section4mobile{
+  display: block;
+}
+.sectionndesk{
+  display: none;
+}
+
+.sections4 button  {
+  width: 44%;
+  margin: 20px;
+  padding: 15px;
+
+}
+.sections4 button {
+  font-size: 16px;
+}
+.section4{
+padding: 20px;
+}
+.section4{
+  padding: 20px;
+  }
+  .footer p{
+    font-size: 110%;
+  }
+  .header{
+    font-size: 180%;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: left;
+    color: white;
+  }
+  .headers2{
+    margin: 0px;
+  }
+  label.checkbtn{
+    margin-right: 0px;
+  }
+}
+/* Navbar responsive */
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  #Header {
+    padding: 15px;
+  }
+  .section1 img{
+    display: none;
+  }
+  #navbar {
+    padding-right: 0;
+  }
+  #navbar .credentials {
+    padding-left: 15px;
+  }
+  #navbar li {
+    padding: 0 10px;
+  }
+  #navbar li a {
+    font-size: 0.9rem;
+  }
+  .signup-btn {
+    padding: 10px 15px;
+    height: 40px;
+  }
+   
+
+  /* Section 1 */
+  .section1 {
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
+  .headers {
+    margin-left: 20px;
+    padding: 30px 0;
+    align-items: center;
+  }
+.section1 button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 29.05px;
+  color: white;
+  margin-left: 15px;
+  width: 50%;
+}
+
+  .section1 h1 {
+    font-size: 4rem;
+    user-select: none;
+    font-weight: 700;
+    line-height: 96.82px;
+
+ 
+  text-align: center; /* Center the heading */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center the heading text */
+  width: 180%; /* Make the heading span the full width of its container */
+  /* Set the font size (adjust as needed) */
+  font-weight: bold; /* Make the heading text bold */
+  }
+  .section1 p {
+    font-size: 110%;
   }
 
   /* Section 2 */
@@ -1225,9 +1552,15 @@ a.active,a:hover{
     flex-direction: row;
     align-items: center;
     margin: 40px;
+    width: 140%;
+    JUSTIFY-CONTENT: space-between;
+    GAP: 9PX;
   }
 
   /* Section 5 */
+  .section5{
+    margin-bottom: 1REM;
+   }
   .section5_header h1 {
     margin: 20px 0px 0px 20px ;
     font-size: 180%;
@@ -1336,6 +1669,7 @@ a.active,a:hover{
   padding: 15px;
 
 }
+
 .sections4 button {
   font-size: 16px;
 }
@@ -1363,31 +1697,3 @@ padding: 20px;
   }
 }
 
-
-/* Navbar responsive */
-@media (max-width: 858px) {
-  .checkbtn {
-    display: block;
-  }
-  ul {
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 30px 0;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 1.2rem;
-  }
-  #check:checked ~ ul {
-    left: 0;
-  }
-}
-
-p{
-  border-bottom: 0px;
-}
