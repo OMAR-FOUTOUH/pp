@@ -972,6 +972,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
+
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
@@ -1079,6 +1080,7 @@ a.active,a:hover{
     height: auto;
     align-items: center;
     height: 100vh;
+    justify-content: flex-start;
   }
   .headers {
     margin-left: 20px;
@@ -1104,14 +1106,13 @@ a.active,a:hover{
     font-family: Inter;
   font-size: 80px;
   font-weight: 700;
-  line-height: 96.82px;
+  line-height: 59.82px;
 
  
   text-align: center; /* Center the heading */
   margin: 0; /* Remove default margin */
-  text-align: center; /* Center the heading text */
+
   width: 180%; /* Make the heading span the full width of its container */
-  /* Set the font size (adjust as needed) */
   font-weight: bold; /* Make the heading text bold */
   }
   .section1 p {
@@ -1435,7 +1436,7 @@ padding: 20px;
     font-size: 4rem;
     user-select: none;
     font-weight: 700;
-    line-height: 96.82px;
+    line-height: 59.82px;
 
  
   text-align: center; /* Center the heading */
